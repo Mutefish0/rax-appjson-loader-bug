@@ -1,0 +1,41 @@
+.homeContainer {
+  align-items: center;
+  margin-top: 200rpx;
+}
+
+.tips {
+  font-size: 20rpx;
+  color: #aaa;
+  margin-bottom: 40rpx;
+}
+
+.tabs {
+  position: relative;
+  width: 600rpx;
+  flex-direction: row;
+}
+
+.tab {
+  flex: 1 1 0%;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.tabIndicator {
+  position: absolute;
+  width: 60rpx;
+  height: 4rpx;
+  bottom: -10rpx;
+  margin-left: 70rpx;
+  transition: left 0.4s;
+  background-color: #FFDD00;
+  border-radius: 4rpx;
+}
+
+.content {
+  flex-grow: 1;
+  margin: 40rpx;
+  padding: 24rpx;
+  background-color: #eee;
+}
